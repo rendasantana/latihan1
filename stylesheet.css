@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: arial
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  display: list-item;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  background-color: white;
+  display: block;
+  float: left;
+}
+
+.header-right a:hover {
+  color: rgba(250, 201, 3, 1);
+}
+
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+  
+/* Intro */
+
+
+  /* .intro {
+    padding: 100px 0 100px 0;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    letter-spacing: -1px;
+    font-size:  50px;
+    margin-bottom: -10px;
+  }
+  
+  .intro h2 {
+    letter-spacing: 4px;
+    font-size: 25px;
+    margin-bottom: -50px;
+    z-index: 10;
+  }
+  
+  .intro span {
+    color: yellow;
+  } */
+  
+  /* .intro img{
+    width: 200px;    
+  }
+  
+  .intro-logo1 {
+    position: relative;
+    float: left;
+    left: 1500px;
+    z-index: -1;
+  } */
+  
+  /* .intro-logo2 {
+    position: relative;
+    float: right;
+    top: 70px;
+    right: 150px;
+    z-index: -1;
+  } */
+
+
+  .intro {
+    height: auto;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border-bottom: gray solid 1px;
+  }
+  
+  .text {
+      width: 100%;
+  }
+
+  .intro h1 {
+    letter-spacing: -1px;
+    font-size:  50px;
+    margin-bottom: -15px;
+  }
+  
+  .intro h2 {
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+  .intro span {
+    color: yellow;
+  }
+
+  .intro img{
+    width: 170px;    
+  }
+  
+  .intro-blue {
+    position: relative;
+    float: left;
+    bottom: 130px;
+    /* left: 10px; */
+    z-index: -1;
+  }
+
+  .intro-yellow {
+    position: relative;
+    float: right;
+    /* top: 70px; */
+    bottom: 100px;
+    right: 50px;
+    z-index: -1;
+  }
+
+  footer {
+    height: 180px;
+    width: 100%;
+    background-color: #fac903;
+    padding: 25px 0;
+    color: white;
+  }
+  
+  .footer-left {
+    float: left;
+  }
+  
+  .footer-left h3 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .footer-right {
+    float: right;
+    font-size: 15px;
+  }
+  
+  .footer-right li {
+    padding: 10px 0;
+  }
+  
+  .footer-right a {
+    text-decoration: none;
+    color: white
+  }
+  
+  .footer-right a:hover {
+    color: black;
+  }
+  
+  .footer-right ul {
+    padding: 0;
+  }
+  
+  .PGxGA {
+    display: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .pg {
+    width: 75px;
+  }
+  
+  .ga {
+    width: 40px;
+  }
+  
+  .intro {
+    padding-top: 180px;
+    padding-bottom: 100px;
+  }
+  
+  .curriculum {
+    height: auto;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .heading h3{
+      float: left;
+      border-bottom: gray solid 2px;
+      padding-bottom: 10px;
+      width: 100%;
+      text-align: left;
+  }
+  .curriculums{
+      float: left;
+      width: 33%;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: gray;
+  }
+  .curriculums h3{
+      font-size: 16px;
+      cursor: pointer;
+  }
+  .curriculums img{
+      width: 180px;
+      height: 180px;
+      cursor: pointer;
+  }
+  .curriculums p{
+      font-weight: normal;
+      font-size: 14px;
+      display: inline-block;
+      width: 80%;
+      margin-top: 15px;
+  }
+  
+  .contact-form {
+    padding-bottom: 80px;
+  }
