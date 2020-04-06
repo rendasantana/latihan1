@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGxGA #6 Group 3 Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" media="all" href="ga_white.css" id="theme_css" />
+    <link type="text/css" rel="alternate stylesheet" media="all" href="ga_dark.css" id="theme_css" />
+    <link rel="stylesheet" href="ga_dark_rsp.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="#">
+            <img class="logo" src="progate_logo.png" alt="Logo Progate">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#contact">Contact us</a>
+          <a href="#curriculum">Curriculum</a>
+          <a href="#intro">About us</a>
+          <span class="fa fa-adjust mode" id="button" onclick="modeFunction()"></span>
+        </div>
+      </div>
+    </header>
+    <div class="intro" id="intro">
+      <div class="container">
+        <div class="text">
+          <h1>PROGATE <span>x</span> GLINTS</h1>
+          <h2>The path to a brighter future</h2>
+        </div>
+        <div class="intro-blue">
+          <img src="glints_blue1.png" alt="blue">
+        </div>
+        <div class="intro-yellow">
+          <img src="glints_yellow.png" alt="yellow">
+       </div>
+     </div>
+    </div>
+    <div class="curriculum" id="curriculum">
+      <div class="container">
+        <div class="heading">
+          <h3>CURRICULUM</h3>
+        </div>
+        <div class="curriculums-section">
+          <div class="curriculums">
+            <a href="#">
+              <div class="curriculums-logo">
+                <img src="html.png">
+                <h3>HTML & CSS</h3>
+              </div>
+            </a>
+            <p>Language for web structure and design</p>
+          </div>
+          <div class="curriculums">
+            <a href="#">
+              <div class="curriculums-logo">
+                <img src="git.png">
+                <h3>GIT</h3>
+              </div>
+            </a>
+            <p>Tool that is used for a better team collaboration</p>
+          </div>
+          <div class="curriculums">
+            <a href="#">
+              <div class="curriculums-logo">
+                <img src="commandline.png">
+                <h3>GIT</h3>
+              </div>
+            </a>
+            <p>Processes commands to a computer program</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="container">
+        <h3 id="contact" class="section-title">Contact us</h3>
+        <div class="form">
+          <p>Email (Required)</p>
+          <input>
+          <p>Message (Required)</p>
+          <textarea></textarea>
+          <p>* Required fields must be filled</p>
+          <input class="contact-submit" type="submit" value="Send">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-left">
+          <h3>Progate x Glints</h3>
+        </div>
+        <div class="footer-right">        
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li>
+              <div class="PGxGA">
+                <img class="pg" src="progate_logo.png" alt="PG logo">
+                <span> X </span>
+                <img class="ga" src="glints_logo.png" alt="Glints Logo">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    var count = 0
+
+document.getElementById('button').onclick = function () {
+    count = count + 1;
+    if (count%2!=0){
+      document.getElementById('theme_css').href = 'ga_dark.css';
+    } else{
+      document.getElementById('theme_css').href = 'ga_white.css';
+    }
+};
+</script>
+</html>

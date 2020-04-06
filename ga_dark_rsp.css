@@ -1,0 +1,96 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .intro {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .intro h1 {
+    font-size: 50px;
+    margin-bottom: -20px;
+  }
+
+  .intro h2 {
+    font-size: 25px;
+    margin-bottom: -5px;
+  }
+
+  .intro-blue {
+    left: 20px;
+    margin-left: 3%;
+  }
+
+  .intro-yellow {
+    top: -30px;
+    right: 80px;
+  }
+
+  .curriculums {
+    width: 33%;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .curriculums{
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  footer {
+    text-align: center;
+    height: 225px;
+    background-color: #fac903;
+  }
+
+  .footer-right {
+    font-size: 12px;
+    float: none;
+    text-align: center;
+  }
+
+  .footer-left {
+    display: none;
+  }
+
+  .PGxGA {
+    display: inline-block;
+  }
+
+  .contact-form, input, textarea, contact-submit {
+    width: 100%;
+  }
+
+  .intro-blue {
+    bottom: 250px;
+    left: 50px;
+  }
+
+  .intro-yellow {
+    top: 15px;
+    right: 50px;
+  }
+
+  .header-left {
+    padding: 0 25px;
+  }
+
+  .header-right {
+    padding: 0 25px;
+  }
+}
